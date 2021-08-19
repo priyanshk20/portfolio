@@ -71,6 +71,7 @@ span{
 .navbar .navbar-brand{
     font-weight: bold;
     font-size: 1.5rem;
+    cursor:pointer;
 }
 
 .navbar .nav-pills{
@@ -79,6 +80,10 @@ span{
 
 .navbar .link{
     color: white;
+}
+
+.navbar .link:hover{
+    font-weight:bold;
 }
 
 .navbar .current{
